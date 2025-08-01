@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fitwaymedia – Makanan sebagai Bahan Bakar Tubuh</title>
+  <meta name="description" content="Pelajari cara membakar lemak secara alami dengan makanan yang tepat. Tambahkan tomat, delima, kiwi, matcha, dan dark chocolate ke dalam rutinitasmu." />
+  <link rel="icon" href="https://favicon.io/favicon-generator/?t=F" />
+  <style>
+    :root {
+      --bg:#fcf9f2;
+      --card:#ffffff;
+      --radius:14px;
+      --shadow:0 20px 40px rgba(0,0,0,0.04);
+      --accent:#2f855a;
+      --text:#1f2937;
+      --muted:#555;
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    }
+    *{box-sizing:border-box;}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    .container{
+      max-width: 960px;
+      padding: 0 1rem;
+      margin:0 auto;
+    }
+    header{
+      padding:2rem 0 1rem;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      gap:1rem;
+      justify-content:space-between;
+    }
+    .logo{
+      font-weight:700;
+      font-size:1.25rem;
+      display:flex;
+      align-items:center;
+      gap:0.5rem;
+    }
+    .hero{
+      background: var(--card);
+      padding:2rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom:2rem;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero h1{
+      margin-top:0;
+      font-size:2rem;
+      line-height:1.2;
+    }
+    .badge{
+      display:inline-block;
+      background:var(--accent);
+      color:#fff;
+      padding:0.25rem 0.75rem;
+      border-radius:999px;
+      font-size:0.75rem;
+      text-transform:uppercase;
+      letter-spacing:1px;
+      margin-bottom:0.5rem;
+    }
+    .grid{
+      display:grid;
+      gap:1.5rem;
+    }
+    .cards{
+      margin:2rem 0;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:1rem;
+    }
+    .card{
+      background:var(--card);
+      padding:1rem 1.25rem;
+      border-radius:var(--radius);
+      box-shadow: var(--shadow);
+      position:relative;
+    }
+    .card h3{
+      margin:0 0 .5rem;
+      font-size:1.1rem;
+    }
+    .card p{
+      margin:0;
+      font-size:0.9rem;
+      color: #444;
+    }
+    .highlight{
+      background: rgba(47,133,90,0.08);
+      padding:0.5rem 1rem;
+      border-radius:8px;
+      margin:1rem 0;
+      display:flex;
+      gap:1rem;
+      align-items:center;
+    }
+    .button{
+      display:inline-block;
+      background: var(--accent);
+      color:#fff;
+      padding:0.75rem 1.25rem;
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:600;
+      margin-top:1rem;
+    }
+    .steps{
+      display:flex;
+      flex-wrap:wrap;
+      gap:1rem;
+    }
+    .step{
+      flex:1 1 200px;
+      background:var(--card);
+      padding:1rem;
+      border-radius:12px;
+      box-shadow: var(--shadow);
+    }
+    .footer{
+      padding:2rem 0;
+      font-size:0.85rem;
+      text-align:center;
+      color: #666;
+    }
+    .badge-small{
+      background:#ffe5d9;
+      color:#d9534f;
+      padding:3px 8px;
+      border-radius:6px;
+      font-size:0.6rem;
+      display:inline-block;
+    }
+    @media (min-width:768px){
+      .hero{
+        display:flex;
+        gap:2rem;
+        align-items:center;
+      }
+      .hero-text{
+        flex:1;
+      }
+      .hero-visual{
+        flex:1;
+        min-width:200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div style="font-size:1.5rem; color:var(--accent);">🔥</div>
+        <div>Fitwaymedia</div>
+      </div>
+      <nav aria-label="main menu">
+        <a href="#makanan" style="margin-right:1rem; text-decoration:none; color:var(--text); font-weight:600;">Makanan</a>
+        <a href="#mulai" style="margin-right:1rem; text-decoration:none; color:var(--text); font-weight:600;">Mulai</a>
+        <a href="#kontak" style="text-decoration:none; color:var(--text); font-weight:600;">Kontak</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="Intro hero">
+      <div class="hero-text">
+        <div class="badge">Cerita &amp; Strategi</div>
+        <h1>Cintai makananmu. Bakar lemak secara alami.</h1>
+        <p>Fitwaymedia mempersembahkan pendekatan sederhana: makanan sebagai bahan bakar. Pelajari lima makanan yang menyalakan mesin metabolisme, bagaimana tidak overfill \"tangki\" tubuhmu, dan langkah pertama ambil kendali hari ini.</p>
+        <a class="button" href="#mulai">Mulai Sekarang</a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <!-- placeholder for illustration -->
+        <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="90" cy="90" r="88" stroke="url(#grad)" stroke-width="4"/>
+          <defs>
+            <radialGradient id="grad" cx="0.5" cy="0.5" r="0.8">
+              <stop offset="0%" stop-color="#2f855a"/>
+              <stop offset="100%" stop-color="rgba(47,133,90,0.1)"/>
+            </radialGradient>
+          </defs>
+          <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent)">Fuel Your Body</text>
+        </svg>
+      </div>
+    </section>
+
+    <section id="makanan">
+      <h2 style="margin-top:0;">5 Makanan Pembakar Lemak</h2>
+      <p>Berikut makanan yang bukan cuma \"aman\" tapi aktif menyalakan sistem pembakaran lemak alami tubuhmu:</p>
+      <div class="cards">
+        <div class="card">
+          <h3>Tomat</h3>
+          <p>Kaya likopen yang mengaktifkan lemak cokelat dan membantu membakar lemak putih. Konsumsi satu tomat matang sehari sebelum makan siang.</p>
+        </div>
+        <div class="card">
+          <h3>Buah Delima</h3>
+          <p>\"Farmasi alami\" yang memicu pertumbuhan bakteri usus sehat (Akkermansia) dan meningkatkan produksi GLP-1 secara internal.</p>
+        </div>
+        <div class="card">
+          <h3>Kiwi</h3>
+          <p>Vitamin C dan serat yang memperbaiki mikrobioma dalam 24 jam, mengurangi inflamasi, dan mendukung metabolisme.</p>
+        </div>
+        <div class="card">
+          <h3>Matcha</h3>
+          <p>Teh hijau bubuk penuh polifenol: mengecilkan lingkar pinggang dengan mengaktifkan lemak cokelat dan meningkatkan energi.</p>
+        </div>
+        <div class="card">
+          <h3>Dark Chocolate</h3>
+          <p>Polifenol tinggi dari kakao murni membantu menyalakan lemak baik dan membakar lemak berlebih — konsumsi sedikit tiap hari.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mulai">
+      <div class="highlight">
+        <div style="flex:1;">
+          <div class="badge-small">Langkah Sederhana</div>
+          <h3 style="margin:6px 0;">3 Hal yang Bisa Kamu Lakukan Hari Ini</h3>
+          <ul style="padding-left:1rem; margin:0;">
+            <li>Minum hanya air, kopi, atau teh tanpa gula.</li>
+            <li>Swap-in: Ganti makanan ultra-proses dengan makanan utuh.</li>
+            <li>Makan perlahan dan hentikan saat 80% kenyang.</li>
+          </ul>
+          <a class="button" href="#kontak">Dapatkan Tips Gratis</a>
+        </div>
+      </div>
+
+      <div style="margin-top:1.5rem;">
+        <h2>Analoginya: Tangki Bahan Bakar Tubuh</h2>
+        <div class="step" style="display:flex; gap:1rem; flex-wrap:wrap;">
+          <div style="flex:1; min-width:200px; background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <h4>Isi yang tepat</h4>
+            <p>Kalau tangki terlalu penuh, bahan bakar tumpah. Begitu juga dengan tubuh: makan berlebihan membuat lemak menumpuk.</p>
+          </div>
+          <div style="flex:1; min-width:200px; background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow);">
+            <h4>Aktifkan pembakaran</h4>
+            <p>Dengan tidur, puasa terkontrol, dan makanan yang tepat, tubuh menggunakan lemak sebagai bahan bakar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" style="margin-top:2rem;">
+      <h2>Ingin lebih lanjut?</h2>
+      <p>Kalau kamu ingin mengembangkan blog, kartu resep, atau rangkuman visual dari cerita ini untuk Instagram, kirim pesan atau hubungi lewat:</p>
+      <p><strong>Email:</strong> <a href="mailto:fitwaymedia@example.com">fitwaymedia@example.com</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/fitwaymedia" target="_blank">@fitwaymedia</a></p>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Fitwaymedia. Semua hak cipta dilindungi. <br> Website ini dibuat dengan pendekatan sederhana: makanan adalah bahan bakar, kamu adalah pengemudi.</p>
+    </footer>
+  </div>
+</body>
+</html>
